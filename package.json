@@ -1,0 +1,26 @@
+{
+  "name": "eslint-plugin-no-server-logging",
+  "version": "0.0.1",
+  "description": "ESLint rule to hide server logging",
+  "private": true, 
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Sam Carr",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~2.6.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
